@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5CD204A42D39DDA30030927C /* Bakery */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Bakery;
-			sourceTree = "<group>";
-		};
 		5CD204B52D39DDA50030927C /* BakeryTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BakeryTests;
@@ -43,6 +38,11 @@
 		5CD204BF2D39DDA50030927C /* BakeryUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BakeryUITests;
+			sourceTree = "<group>";
+		};
+		5CD204FB2D39E7740030927C /* Bakery */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Bakery;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		5CD204992D39DDA30030927C = {
 			isa = PBXGroup;
 			children = (
-				5CD204A42D39DDA30030927C /* Bakery */,
+				5CD204FB2D39E7740030927C /* Bakery */,
 				5CD204B52D39DDA50030927C /* BakeryTests */,
 				5CD204BF2D39DDA50030927C /* BakeryUITests */,
 				5CD204A32D39DDA30030927C /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5CD204A42D39DDA30030927C /* Bakery */,
+				5CD204FB2D39E7740030927C /* Bakery */,
 			);
 			name = Bakery;
 			packageProductDependencies = (
@@ -195,6 +195,9 @@
 			);
 			mainGroup = 5CD204992D39DDA30030927C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5CD204CF2D39E08B0030927C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5CD204A32D39DDA30030927C /* Products */;
 			projectDirPath = "";
@@ -558,6 +561,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5CD204CF2D39E08B0030927C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 5CD2049A2D39DDA30030927C /* Project object */;
 }
